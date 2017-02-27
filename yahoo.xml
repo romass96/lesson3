@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="2" yahoo:created="2017-02-25T17:29:49Z" yahoo:lang="en-US"><results><rate id="USDEUR"><Name>USD/EUR</Name><Rate>0.9472</Rate><Date>2/24/2017</Date><Time>10:35pm</Time><Ask>0.9477</Ask><Bid>0.9472</Bid></rate><rate id="USDUAH"><Name>USD/UAH</Name><Rate>26.8900</Rate><Date>2/24/2017</Date><Time>11:21pm</Time><Ask>27.1400</Ask><Bid>26.8900</Bid></rate></results></query><!-- total: 109 -->
-<!-- prod_bf1_1;paas.yql;queryyahooapiscomproductionbf1;4f3022ed-e4ef-11e6-bcc3-d4ae52974741 -->
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="2" yahoo:created="2017-02-27T20:07:41Z" yahoo:lang="en-US"><results><rate id="USDEUR"><Name>USD/EUR</Name><Rate>0.9405</Rate><Date>2/27/2017</Date><Time>4:50pm</Time><Ask>0.9410</Ask><Bid>0.9405</Bid></rate><rate id="USDUAH"><Name>USD/UAH</Name><Rate>27.0300</Rate><Date>2/27/2017</Date><Time>7:12pm</Time><Ask>27.2800</Ask><Bid>27.0300</Bid></rate></results></query><!-- total: 59 -->
+<!-- prod_bf1_1;paas.yql;queryyahooapiscomproductionbf1;8a175f01-f061-11e6-bcc3-d4ae52974741 -->

@@ -16,10 +16,9 @@ public class Main {
                 "yahoo.finance.xchange%20where%20pair%20in%20(\"USDEUR\",%20\"USDUAH\")&env=store://datatables.org/alltableswithkeys";
 
         String result = performRequest(request);
-        try {
-            Writer writer = new FileWriter("yahoo.xml");
+        try(Writer writer = new FileWriter("yahoo.xml")) {
             writer.write(result);
-            writer.close();
+            writer.flush();
             JAXBContext jaxbContext = JAXBContext.newInstance(Query.class);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             Query query = (Query) unmarshaller.unmarshal(new File("yahoo.xml"));
